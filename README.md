@@ -80,7 +80,7 @@ NOTE: This config file can be modified within the GUI of Serverledge_Demo in the
 NOTE: Available in the application section 'help'.
 
 ### Invoke functions
-[!Dashboard](README_screenshots/Main_interface.png)
+![App Screenshot](README_screenshots/Main_interface.png)
 
 Click on the button 'Function' at the top to enter the functions session. Click on a online icon node to select the node on which invoke the desired function.
 Then you can toggle the modality by clicking the 'Mode' button (in the image is setted up to 'Sync'), you can then specify input parameters by following this syntax: 
@@ -93,7 +93,7 @@ Outcomes will be displayed as soon as possible on the log on top if the modality
 NOTE: You can stack Async invocations, be sure to remember on witch node they were invoked on.
 
 ### Configuration
-[!Dashboard](README_screenshots/Settings_widget.png)
+![App Screenshot](README_screenshots/Settings_widget.png)
 
 Click on the button 'Settings' at the top to enter the settings session. The form is very straight up, be sure to click on the 'Apply' button at the end, if all is well it will be displayed an according message on the right session.
 
