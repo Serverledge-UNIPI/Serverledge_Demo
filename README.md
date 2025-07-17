@@ -90,7 +90,7 @@ Then you can toggle the modality by clicking the 'Mode' button (in the image is 
 Finaly you can click on the 'Play' button of the function element listed at the bottom.
 Outcomes will be displayed as soon as possible on the log on top if the modality selected was 'Sync', otherwise you must have selected the same node and click on the 'Pull' button.
 
-NOTE: You can stack Async invocations, be sure to remember on witch node they were invoked on.
+NOTE: You can stack Async invocations, be sure to remember on which node they were invoked on.
 
 ### Configuration
 ![App Screenshot](README_screenshots/Settings_widget.png)
