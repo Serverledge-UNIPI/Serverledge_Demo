@@ -15,7 +15,9 @@ class ServerLedgeInterface:
             if metadata.key.decode().find("function") != -1:
                 functions.append(json.loads(value.decode()))
             if metadata.key.decode().find("registry") != -1:
-                host, api_port, _ = value.decode().split(";")
+                values = value.decode().split(";")
+                host = values[0]
+                api_port = values[1]
                 url = f"http://{host}:{api_port}"
                 urls.append({"url": url, "location": str(metadata.key.decode().split("/")[1])})
         return urls, functions
