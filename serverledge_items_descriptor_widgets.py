@@ -140,9 +140,7 @@ class NodeWidget(QWidget):
                     </p></center>
                     """)
 
-    def update_node_status(self, node_url : str, available_cpu : str, available_memory : str):
-        #Debug check
-        assert node_url == self.url
+    def update_node_status(self, available_cpu : str, available_memory : str):
         self.set_node_text(available_cpu,available_memory)
 
     def select(self):

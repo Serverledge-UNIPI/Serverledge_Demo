@@ -151,11 +151,11 @@ class ServerLedgeGUI(QMainWindow):
         #Updating
         for updated_node_status, node_widget in zip(updated_node_statuses, self.node_widgets):
             if 'Error_Code' not in updated_node_status.keys():
-                node_widget.update_node_status(updated_node_status.get('Url'),updated_node_status.get('AvailableCPUs'),
+                node_widget.update_node_status(updated_node_status.get('AvailableCPUs'),
                                                updated_node_status.get('AvailableMemMB'))
                 node_widget.set_online()
             else:
-                node_widget.update_node_status(updated_node_status.get('Url'), "--","--")
+                node_widget.update_node_status("--","--")
                 node_widget.set_offline()
 
     def toggle_etcd_status(self, status : bool):
